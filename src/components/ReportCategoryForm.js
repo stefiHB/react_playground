@@ -1,14 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Text, Input} from "react-native-elements";
 import {FlatList, StyleSheet, View} from "react-native";
 import {useFormContext, Controller} from "react-hook-form";
 import TypeReportOptions from "./TypeReportOptions";
+import ImagePicker from "./ImagePicker";
 
 const ReportCategoryForm = ({reportId, reportType, reportOptions}) => {
+
+    const [selectedImage, setSelectedImage] = useState();
 
     const { control } = useFormContext();
     console.log(reportOptions);
 
+
+    const imageTakenHandler = imagePath => {
+        setSelectedImage(imagePath);
+    }
 
     return (
         <View style={styles.container}>
@@ -39,6 +46,15 @@ const ReportCategoryForm = ({reportId, reportType, reportOptions}) => {
                         onChangeText={onChange}
                     />
                     )}
+            />
+            <Controller
+                name={reportId + '_image'}
+                control={control}
+                render={ ({field: {value}}) => (
+                    <ImagePicker
+                        onImageTaken={imageTakenHandler}
+                    />
+                )}
             />
 
         </View>

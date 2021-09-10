@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0cdb4dfc-fcb5-4e55-ac89-8e4fbdc63997" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/constants/Colors.js" afterDir="false" />
+    <list default="true" id="0cdb4dfc-fcb5-4e55-ac89-8e4fbdc63997" name="Default Changelist" comment="ImagePicker">
+      <change afterPath="$PROJECT_DIR$/src/jsonExample.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ImagePicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ImagePicker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ReportCategoryForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReportCategoryForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/screens/MissionFormScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/screens/MissionFormScreen.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +64,12 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../PTMonitor" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -82,8 +85,20 @@
       <updated>1629722641739</updated>
       <workItem from="1629722642989" duration="913000" />
       <workItem from="1629723818829" duration="336000" />
-      <workItem from="1629897529494" duration="421000" />
+      <workItem from="1629897529494" duration="1901000" />
+      <workItem from="1629961773766" duration="3669000" />
+      <workItem from="1630993005326" duration="10346000" />
+      <workItem from="1631087867356" duration="34000" />
+      <workItem from="1631179593148" duration="13005000" />
     </task>
+    <task id="LOCAL-00001" summary="ImagePicker">
+      <created>1629898203335</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1629898203335</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -125,6 +140,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ImagePicker" />
+    <option name="LAST_COMMIT_MESSAGE" value="ImagePicker" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">

@@ -12,11 +12,6 @@ const ReportCategoryForm = ({reportId, reportType, reportOptions}) => {
     const { control } = useFormContext();
     console.log(reportOptions);
 
-
-    const imageTakenHandler = imagePath => {
-        setSelectedImage(imagePath);
-    }
-
     return (
         <View style={styles.container}>
 
@@ -50,9 +45,10 @@ const ReportCategoryForm = ({reportId, reportType, reportOptions}) => {
             <Controller
                 name={reportId + '_image'}
                 control={control}
-                render={ ({field: {value}}) => (
+                render={ ({field: {onChange, value}}) => (
                     <ImagePicker
-                        onImageTaken={imageTakenHandler}
+                        value={value}
+                        onImageTaken={value => onChange(value)}
                     />
                 )}
             />

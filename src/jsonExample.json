@@ -1,0 +1,27 @@
+{
+  "report_creation_timestamp":"2021-07-06T10:17:40.778966Z",
+  "report_inspection_start_timestamp":"2020-02-01T20:35:00Z",
+  "report_inspection_end_timestamp":"2020-02-01T20:35:00Z",
+  "report_creation_user":4,
+  "report_district":1,
+  "report_company":"1",
+  "busreport":
+  {
+    "busreport_bus":2,
+    "busreport_inspection_location_lon":null,
+    "busreport_inspection_location_lat":null,
+    "busreportedviolations":
+    [
+      {
+        "busreportedviolation_is_reported":false,
+        "busreportedviolation_busviolation":1,
+        "busreportedviolation_notes":"no very good"
+      },
+      {
+        "busreportedviolation_is_reported":true,
+        "busreportedviolation_busviolation":2,
+        "busreportedviolation_notes":"no very good"
+      }
+    ]
+  }
+}
